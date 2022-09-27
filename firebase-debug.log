@@ -68,3 +68,9 @@ You're about to initialize a Firebase project in this directory:
 [debug] [2022-09-27T18:52:27.174Z] >>> [apiv2][query] GET https://api.github.com/repos/patriciomonpelat/netflix-clone/actions/secrets/public-key type=owner
 [debug] [2022-09-27T18:52:27.531Z] <<< [apiv2][status] GET https://api.github.com/repos/patriciomonpelat/netflix-clone/actions/secrets/public-key 404
 [debug] [2022-09-27T18:52:27.531Z] <<< [apiv2][body] GET https://api.github.com/repos/patriciomonpelat/netflix-clone/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2022-09-27T18:54:43.810Z] >>> [apiv2][query] GET https://api.github.com/repos/patriciomonpelat/netflix-clone/actions/secrets/public-key type=owner
+[debug] [2022-09-27T18:54:44.125Z] <<< [apiv2][status] GET https://api.github.com/repos/patriciomonpelat/netflix-clone/actions/secrets/public-key 401
+[debug] [2022-09-27T18:54:44.125Z] <<< [apiv2][body] GET https://api.github.com/repos/patriciomonpelat/netflix-clone/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-09-27T18:55:26.984Z] >>> [apiv2][query] GET https://api.github.com/repos/patriciomonpelat/netflix-clone/actions/secrets/public-key type=owner
+[debug] [2022-09-27T18:55:27.286Z] <<< [apiv2][status] GET https://api.github.com/repos/patriciomonpelat/netflix-clone/actions/secrets/public-key 401
+[debug] [2022-09-27T18:55:27.287Z] <<< [apiv2][body] GET https://api.github.com/repos/patriciomonpelat/netflix-clone/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
