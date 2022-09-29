@@ -13,9 +13,6 @@
     font-weight: 800;
     padding-bottom: 0.3rem;
 }
-.banner__buttons{
-
-}
 .banner--fadeBottom{
     height: 7.4rem;
     background-image: linear-gradient(
@@ -51,5 +48,24 @@
 .banner__button:hover {
     color: #000;
     background-color: #e6e6e6;
+    transition: all 0.2s;
+}
+.banner__button_play{
+    cursor: pointer;
+    color: #000;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    background-color: #e6e6e6;
+    padding-bottom: 0.5rem;
+}
+.banner__button_play:hover{
+    color: #fff;
+    background-color: rgba(51, 51, 51, 0.5);
     transition: all 0.2s;
 }
