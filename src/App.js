@@ -9,14 +9,15 @@ function App() {
   const user = null;
   
   useEffect(() => {
-    // auth.onAuthStateChanged((userAuth) => {
-    //   if (userAuth) {
-    //     // logged in
-    //     console.log(userAuth);
-    //   } else {
-    //     // logged out
-    //   }
-    // });
+    const unsubscribe = auth.onAuthStateChanged((userAuth) => {
+      if (userAuth) {
+        // logged in
+        console.log(userAuth);
+      } else {
+        // logged out
+      }
+    });
+    return unsubscribe;
   }, []);
 
   return (
