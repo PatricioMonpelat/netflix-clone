@@ -39,7 +39,7 @@ function SignUpScreen() {
   };
 
   return (
-    <div className='signupScreen'>
+    <div className="signupScreen">
       <form>
         <h1>Sign In</h1>
         <input ref={emailRef} placeholder='Email' type='email' />
